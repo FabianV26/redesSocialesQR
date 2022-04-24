@@ -1,0 +1,358 @@
+<style>
+
+body {
+  background: #000;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+#social {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#social ul {
+  text-align: center;
+  padding-left: 0px;
+  margin: 0 auto;
+}
+
+#social ul{
+ margin-right: 35px;
+}
+
+#social li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+/** Facebook **/
+
+.facebook {
+  width: 50px;
+  height: 50px;
+}
+
+.facebook .border {
+  background: transparent;
+  outline: none;
+  color:rgba(255,255,255, 0.3);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.facebook .border:hover {
+  background: #3b5998;
+  border-color: #436aaf;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+.fa.fa-facebook {
+  font-size: 25px;
+}
+
+.gmail {
+  width: 50px;
+  height: 50px;
+}
+
+.gmail .border {
+  background: transparent;
+  outline: none;
+  color:rgba(255,255,255, 0.3);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.gmail .border:hover {
+  background: #ff0000;
+  border-color: #af4343;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+.fa.fa-google {
+  font-size: 25px;
+}
+
+/** Twitter **/
+
+.twitter {
+  width: 50px;
+  height: 50px;
+}
+
+.twitter .border {
+  background: transparent;
+  outline: none;
+  color:rgba(255,255,255, 0.3);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.twitter .border:hover {
+  background: #00aced;
+  border-color: #72c6e6;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+.fa.fa-globe {
+  font-size: 25px;
+}
+
+/** Instagram **/
+
+.instagram {
+  width: 50px;
+  height: 50px;
+}
+
+.instagram .border {
+  background: transparent;
+  outline: none;
+  color:rgba(255,255,255, 0.3);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.instagram .border:hover {
+  background: #517fa4;
+  border-color: #7495af;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+.fa.fa-instagram {
+  font-size: 25px;
+}
+
+/** dribbble **/
+
+.dribbble {
+  width: 50px;
+  height: 50px;
+}
+
+.dribbble .border {
+  background: transparent;
+  outline: none;
+  color:rgba(255,255,255, 0.3);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.dribbble .border:hover {
+  background: #71ea4c;
+  border-color: #78ff8a;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+.fa.fa-whatsapp {
+  font-size: 25px;
+}
+
+#social ul li {
+  transition: ease .3s;
+}
+
+#social ul:hover > li {
+  opacity: 0.5;
+}
+
+#social ul:hover > li:hover {
+  opacity: 1;
+}
+
+.centrado{
+		  margin:10px auto;
+		  display:block;
+}
+.texto{
+  font-family: Arial, Helvetica, sans-serif;
+		 color: aliceblue;
+     margin-top: 30px;
+}
+
+
+
+
+ /* Tablet desktop :768px. */
+ @media (max-width: 991px) {
+
+  #social ul{
+ margin-right: 90px;
+}
+
+  #social li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 70px;
+}
+  /** Facebook **/
+  
+  .facebook {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .facebook .border {
+    width: 150px;
+    height: 150px;
+  }
+ 
+  .fa.fa-facebook {
+    font-size: 80px;
+  }
+  
+  /** Twitter **/
+  
+  .twitter {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .twitter .border {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .fa.fa-globe {
+    font-size:80px;
+  }
+  
+  /** Instagram **/
+  
+  .instagram {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .instagram .border {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .fa.fa-instagram {
+    font-size: 80px;
+  }
+  
+  /** dribbble **/
+  
+  .dribbble {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .dribbble .border {
+    width: 150px;
+    height: 150px;
+  }
+  
+  
+  .fa.fa-whatsapp {
+    font-size: 80px;
+  }
+
+  .fa.fa-google {
+    font-size: 80px;
+  }
+  
+  .gmail {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .gmail .border {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .centrado{
+
+          margin:80px auto;
+          display:block;
+          height: 400px;
+      }
+      .center {
+  display: table;
+  width: max-content;
+  height: 85vh;
+}
+.texto{
+    font-size: 40px ;
+		 color: aliceblue;
+     margin-top: 60px;
+}  
+}
+
+</style>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="center">
+  
+<div id="social">
+  <img class="centrado" src="logo.png" alt="Descripción de la imagen"> 
+  <ul>
+    <li class="facebook">
+      <button onclick="window.location.href='https://www.facebook.com/construid.cr/'" class="border"><i class="fa fa-facebook"></i></button>
+    </li>
+
+    <li class="twitter">
+      <button onclick="window.location.href='https://www.construid.cr/index.html'" class="border"><i class="fa fa-globe"></i></button>
+    </li>
+
+    <li class="instagram">
+      <button onclick="window.location.href='https://www.instagram.com/construid.cr/?hl=en'" class="border"><i class="fa fa-instagram"></i></button>
+    </li>
+    
+    <li class="dribbble">
+      <button onclick="window.location.href='https://wa.me/50672046874'"class="border"><i class="fa fa-whatsapp"></i></button>
+    </li>
+    <li class="gmail">
+      <button onclick="window.location.href='mailto:fabivargasfuentes@gmail.com'"class="border"><i class="fa fa-google"></i></button>
+    </li>
+
+  </ul>
+      <p style="text-align:center" class="texto" >Ced.3-101-8082-69<br>
+        Tel. 2290-6203<br>
+        Correo: info@construid.cr<br>
+        Dir: Rhormoser calle 76a edif Nagel</p>
+</div>
+  </div>
